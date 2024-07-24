@@ -1,0 +1,80 @@
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="UFT-8">
+<meta name="author" content="MANZIL RAI">
+<meta name="keyword" content="BCA STUDENT">
+<meta name="discription" content="MEDHAVI SKILL UNIVERSITY">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title> WEB DEVELOPMENT</title>
+<style>
+input[type=text], select ,input[type=email],input[type=password]
+{
+width: 100%;
+padding:12px 20px;
+margin: 8px 0;
+display:inliine-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing: border-box;
+}
+input[type=submit]
+{
+width:100%;
+background-color:green;
+color:white;
+padding:14px 20px;
+margin:8px 0px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+input[type=submit]:hover
+{
+background-color:red;
+}
+div
+{
+border-radius:5px;
+background-color:yellow;
+paddinig:20px;
+width:40%;
+margin:auto;
+float:left;
+position:relative;
+left:20%;
+}
+label
+{
+font-size:15px;
+}
+
+</style>
+</head>
+<body>
+<div>
+<fieldset>
+<legend> USER REGISTRATION FORM FOR GIRL FRIEND </legend>
+<form action="userregister.php" method="post">
+<label for="fname">FIRST NAME </label>
+<input type="text" id="fname" name="FIRSTNAME"placeholder="Your name.. ."required>
+<label for="lname">LAST NAME </label>
+<input type="text" id="lname" name="LASTNAME" placeholder=" Your last name..."required>
+<label for="country"> COUNTRY NAME</label>
+<select id="country" name="country">
+<option value="select"> select </option>
+<option value="option 1"> INDIA</option>
+<option value=" option 2">NEPAL</option>
+<option value="option 3">USa</option>
+</select>
+<label for="email"> E-MAIL ID </label>
+<input type="text" id="email" name="email" placeholder="email id.." required>
+<label for="password"> PASSWORD </label>
+<input type="text" id="password" name="password" placeholder="password.."required>
+<label for="re password"> RE-PASSWORD </label>
+<input type="text" id="re password" name="re password" placeholder="re password.."required>
+<input type="SUBMIT" value="SUBMIT">
+</form>
+</fieldset>
+</body>
+</html>
